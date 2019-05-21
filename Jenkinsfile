@@ -35,7 +35,12 @@ echo 'Deploying....'
 }
 
 }
+stage('finishing'){
+steps {
+echo 'finishing the pipeline....'
+}
 
 }
 
+}
 }
